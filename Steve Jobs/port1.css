@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: gold;
+}
+.inner h1{
+    color: gold;
+}
+span{
+    color: red;
+}
+#Home{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+}
+#Home::before{
+    content: "";
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/04/steve-jobs-07.jpg");
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.85;
+}
+.main{
+    border: 5px solid rgb(27, 27, 161);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 1270px;
+    margin-top: 430px;
+    box-shadow: 4px 5px 6px 5px rgb(0, 0, 0);
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 200px;
+    height: 250px;
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+}
+.pic h4{
+    text-align: center;
+    font-size: x-large;
+}
+h3{
+    text-align: center;
+    margin: 20px;
+    font-size: x-large;
+    text-decoration: underline;
+}
+h3:hover{
+    text-decoration: underline;
+    text-shadow: 4px 5px 6px gold;
+}
+.styled-paragraph {
+    font-family: 'Georgia', serif;
+    line-height: 1.8;  /* Line height for the rest of the paragraph */
+    text-align: justify;
+}
+
+.styled-paragraph::first-letter {
+    font-size: 2.8em;   /* Adjust font size to occupy two lines */
+    font-weight: bold;
+    float: left;
+    line-height: 1.2;   /* Adjust line height for the first letter */
+    margin-right: 10px; /* Adjust margin to create space after the letter */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+

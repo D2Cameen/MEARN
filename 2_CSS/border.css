@@ -1,0 +1,11 @@
+div{
+    background: blue;
+    width: 150px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border: 10px solid;
+    border-radius: 30%;
+    padding: 35px;
+    float: left;
+}

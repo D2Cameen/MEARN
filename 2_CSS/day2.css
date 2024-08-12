@@ -1,0 +1,30 @@
+/* universal Selector */
+*{
+    text-align: center;
+}
+/* id selector */
+#para1{
+    color: blue;
+}
+#para2{
+    text-align: center;
+    font-style: italic;
+    color: red;
+}
+#para3{
+    color: black;
+    border: 5px solid red;
+}
+
+
+/* tag selector */
+p{
+    color: chartreuse;
+}
+/* class selector */
+.cls{
+    background-color: aqua;
+}
+p::first-line{
+    color:red;
+}

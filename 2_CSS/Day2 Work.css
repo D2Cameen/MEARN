@@ -1,0 +1,72 @@
+.img{
+   text-align: center;
+}
+.row {
+    
+     background-image: url(https://images3.alphacoders.com/846/84665.jpg);
+     background-size: cover;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 25%;
+
+}
+
+.tag {
+    background-color: bisque;
+    width: 300px;
+    height: 450px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tag1 {
+   text-align: center;
+}
+
+.agra {
+    background-color: bisque;
+    width: 300px;
+    height: 450px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#agra1 {
+    text-align: center;
+ }
+
+.minar {
+    background-color: bisque;
+    width: 300px;
+    height: 450px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#minar1 {
+    text-align: center;
+ }
+
+.gold {
+    background-color: bisque;
+    width: 300px;
+    height: 450px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#gold1 {
+    text-align: center;
+ }

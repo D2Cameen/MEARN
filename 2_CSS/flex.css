@@ -1,0 +1,30 @@
+.row{
+    background-color: blue;
+    width: 1000px;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* more property in align-items, justify-content,flex-direction */
+
+}
+/* all col */
+.col{
+    background-color: bisque;
+    width: 200px;
+    height: 250px;
+    margin: 15px;
+   
+}
+
+/* indivi cols */
+.col2{
+    background-color: black;
+}
+.col3
+{
+  background-color: red;
+}
+.col4{
+    background-color: aqua;
+}

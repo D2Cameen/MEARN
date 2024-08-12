@@ -1,0 +1,30 @@
+.row{
+    background-color: gold;
+    width: 1000px;
+    height: 720px;
+    position: relative;
+}
+.col{
+    background-color: pink;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    position: absolute;
+}
+.col1{
+    background-color: black;
+    left: 200px;
+}
+.col2{
+    background-color: aqua;
+    left: 400px;
+}
+.col3{
+    background-color: white;
+    top: 200px;
+    left: 200px;
+}
+.col4{
+    top: 200px;
+    left: 400px;
+}
